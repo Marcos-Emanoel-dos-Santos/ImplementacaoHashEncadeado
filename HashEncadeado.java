@@ -175,10 +175,5 @@ public class HashEncadeado {
             atual3Ultimos = atual3Ultimos.proximo;
             contagem++;
         }
-
-        int resposta = hash.buscaHash(1);
-        System.out.println("Valor encontrado: " + resposta);
-        resposta = hash.buscaHash(89500);
-        System.out.println("Valor encontrado: " + resposta);
     }
 }
